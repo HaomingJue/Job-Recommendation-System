@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
-    <artifactId>Github-Job-Recommendation</artifactId>
+    <groupId>com.jobrecommend</groupId>
+    <artifactId>jupiter</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Github-Job-Recommendation</name>
+    <name>jupiter</name>
     <packaging>war</packaging>
 
     <properties>
@@ -56,6 +56,20 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Only insert the following, do not change or touch other lines -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20200518</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.7</version>
+        </dependency>
+        <!-- Only insert the above, do not change or touch other lines -->
+
     </dependencies>
 
     <build>
