@@ -1,5 +1,8 @@
 package com.jobrecommend.job.servlet;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jobrecommend.job.entity.ExampleCoordinates;
+import com.jobrecommend.job.entity.ExampleJob;
 import org.apache.commons.io.IOUtils;
 import org.json.JSONObject;
 
@@ -8,16 +11,21 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-@WebServlet(name = "ExampleBookServlet", urlPatterns = {"/example_book"})
+@WebServlet(name = "ExampleBookServlet", value = "/ExampleBookServlet")
 public class ExampleBookServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        response.getWriter().print("This is the example book servlet");
-//        String keyword = request.getParameter("keyword");
-//        String category = request.getParameter("category");
-//
-//        System.out.println("Keyword is: " + keyword);
-//        System.out.println("Category is: " + category);
+//        response.setContentType("application/json");
+//        ObjectMapper mapper = new ObjectMapper();
+//        ExampleCoordinates coordinates = new ExampleCoordinates(37.485130, -122.148316);
+//        ExampleJob job = new ExampleJob("Software Engineer", 123456, "Aug 1 2020", false, coordinates);
+
+        response.getWriter().print("This is the example book servlet");
+        String keyword = request.getParameter("keyword");
+        String category = request.getParameter("category");
+
+        System.out.println("Keyword is: " + keyword);
+        System.out.println("Category is: " + category);
         response.setContentType("application/json");
         JSONObject json = new JSONObject();
         json.put("title", "Harry Potter and the Sorcerer's Stone");

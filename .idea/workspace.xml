@@ -9,7 +9,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fe82ba2-43f6-4586-bb54-999ca7f1add9" name="Changes" comment="" />
+    <list default="true" id="2fe82ba2-43f6-4586-bb54-999ca7f1add9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/CareerjetAPIClient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/httpclient_4_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/httpcore_4_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/ExampleCoordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/ExampleJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/ExampleJobServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/RecommendationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/SearchServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/testCode/CareerJet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jupiter_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/jupiter_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupiter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jupiter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/ExampleBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/ExampleBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jobrecommend/job/servlet/ExampleBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jobrecommend/job/servlet/ExampleBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT/WEB-INF/classes/com/jobrecommend/job/servlet/ExampleBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT/WEB-INF/classes/com/jobrecommend/job/servlet/ExampleBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.12.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.12.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +49,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -38,6 +72,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="21yq2C5ksABrOWfZ8f1oTKlSDBf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,14 +81,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../careerjet-api-client/libs/json_simple-1.1.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.55" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.55" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="jupiter:war exploded">
@@ -152,22 +188,13 @@
       <workItem from="1638923468705" duration="6726000" />
       <workItem from="1638942301614" duration="310000" />
       <workItem from="1639000484632" duration="642000" />
-      <workItem from="1639170123356" duration="5545000" />
+      <workItem from="1639170123356" duration="9580000" />
+      <workItem from="1639366441833" duration="1721000" />
+      <workItem from="1639433057809" duration="3248000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/ExampleBookServlet.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
