@@ -10,34 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fe82ba2-43f6-4586-bb54-999ca7f1add9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/CareerjetAPIClient.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/httpclient_4_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/httpcore_4_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/ExampleCoordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/ExampleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/ExampleJobServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/RecommendationServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/SearchServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/testCode/CareerJet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLDBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLTableCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/ExtractRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/ExtractResponseItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/Extraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/HistoryRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/LoginRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/LoginResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/RegisterRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/entity/ResultResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/external/MonkeyLearnClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/external/RemotiveClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/HistoryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/jupiter_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/jupiter_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jupiter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jupiter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/ExampleBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/ExampleBookServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jobrecommend/job/servlet/ExampleBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jobrecommend/job/servlet/ExampleBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/SearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/job/servlet/SearchServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jobrecommend/testCode/CareerJet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jobrecommend/testCode/HTMLTutorial.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jobrecommend/testCode/HTMLTutorial.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT/WEB-INF/classes/com/jobrecommend/job/servlet/ExampleBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT/WEB-INF/classes/com/jobrecommend/job/servlet/ExampleBookServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.12.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jupiter-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.12.2.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="Class" />
       </list>
     </option>
@@ -72,23 +75,53 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="21yq2C5ksABrOWfZ8f1oTKlSDBf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../careerjet-api-client/libs/json_simple-1.1.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.55">
+    <configuration name="MonkeyLearnClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jobrecommend.job.external.MonkeyLearnClient" />
+      <module name="jupiter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jobrecommend.job.external.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySQLTableCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jobrecommend.job.db.MySQLTableCreation" />
+      <module name="jupiter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jobrecommend.job.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.55" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.55" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -176,6 +209,12 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MySQLTableCreation" />
+        <item itemvalue="Application.MonkeyLearnClient" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -191,10 +230,92 @@
       <workItem from="1639170123356" duration="9580000" />
       <workItem from="1639366441833" duration="1721000" />
       <workItem from="1639433057809" duration="3248000" />
+      <workItem from="1640487011001" duration="803000" />
+      <workItem from="1640554337949" duration="7275000" />
+      <workItem from="1640641356996" duration="3399000" />
+      <workItem from="1640726628638" duration="4031000" />
+      <workItem from="1640920145139" duration="594000" />
+      <workItem from="1641085692942" duration="724000" />
+      <workItem from="1641086542195" duration="101000" />
+      <workItem from="1641086724971" duration="105000" />
+      <workItem from="1641157912893" duration="599000" />
+      <workItem from="1641332310868" duration="39000" />
+      <workItem from="1641862639727" duration="5759000" />
+      <workItem from="1641935306319" duration="678000" />
+      <workItem from="1641947669559" duration="8934000" />
+      <workItem from="1642021839008" duration="8619000" />
+      <workItem from="1642036580860" duration="2000" />
+      <workItem from="1642045027511" duration="865000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1640487131555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640487131555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLTableCreation.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLTableCreation.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLTableCreation.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLTableCreation.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLTableCreation.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLTableCreation.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLTableCreation.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLTableCreation.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jobrecommend/job/db/MySQLTableCreation.java</url>
+          <line>6</line>
+          <properties class="com.jobrecommend.job.db.MySQLTableCreation" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

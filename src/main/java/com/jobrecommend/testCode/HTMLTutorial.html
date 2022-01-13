@@ -5,6 +5,50 @@
     <title>Title</title>
 </head>
 <body>
+    <h1>i'm headline</h1>
+    <script type="text/javascript">
+        var person = {
+            name : "Joe",
+            age : 20,
+            job : "Full Stack Engineer",
+            sayHello : function() {
+                console.log("hello, this is Joe!");
+            }
+        }
 
+        console.log(person.name);
+        console.log(person['age']);
+
+        person.age = 21;
+        person['age']= 20;
+        person.sayHello();
+
+        function guess(num, smallerCb, biggerCb, equalCb) {
+            var random = Math.floor(Math.random()*100);
+            console.log(num, random);
+
+            if (num < random) {
+                smallerCb();
+            } else if (num > random){
+                biggerCb();
+            }
+            equalCb();
+        }
+
+        function smaller() {
+            console.log("Your num is small");
+        }
+
+        function bigger() {
+            console.log("Your num is big");
+        }
+
+        function equal() {
+            console.log("Your num is correct");
+        }
+
+        guess(18, smaller, bigger, equal);
+
+    </script>
 </body>
 </html>
